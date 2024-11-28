@@ -1,0 +1,90 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #fdf3f8;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 400px;
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px 10px;
+  }
+  
+  header {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+  }
+  
+  .notification-icon {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+  }
+  
+  main {
+    text-align: center;
+  }
+  
+  .emotion-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-items: center;
+  }
+  
+  .emotion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .emotion img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #f0f0f0;
+    padding: 10px;
+  }
+  
+  .emotion p {
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  footer {
+    margin-top: 20px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .nav-icon {
+    width: 40px;
+    height: 40px;
+    background-color: #ffc0cb;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  
+  .nav-icon:hover {
+    background-color: #ff6b99;
+  }
+  
